@@ -1,0 +1,17 @@
+{
+  	"name": "anker-player",
+  	"main": "index.html",
+  	"version:" : "v0.1",
+  	"webkit":
+  	{
+  		"plugin": true
+  	},
+  	"window":
+  	{
+  		
+  	},
+  	"maintainers":[ {
+  	  	"name": "dasmikko",
+  	   	"web": "https://github.com/dasmikko"
+  	}]
+}
