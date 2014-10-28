@@ -1,17 +1,24 @@
 {
-  	"name": "anker-player",
-  	"main": "index.html",
-  	"version:" : "v0.1",
-  	"webkit":
-  	{
-  		"plugin": true
-  	},
-  	"window":
-  	{
-  		
-  	},
-  	"maintainers":[ {
-  	  	"name": "dasmikko",
-  	   	"web": "https://github.com/dasmikko"
-  	}]
+	"name": "anker-player",
+	"main": "index.html",
+	"version:": "v0.1",
+	"webkit": {
+		"plugin": true
+	},
+	"window": {
+		"frame": false,
+		"toolbar": false,
+		"transparent": true,
+		"min_width": 450,
+		"min_height": 300
+	},
+	"maintainers": [
+	{
+		"name": "dasmikko",
+		"web": "https://github.com/dasmikko"
+	}
+	],
+		"dependencies": {
+			"forEachAsync": "^3.0.0"
+	}
 }
